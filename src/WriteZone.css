@@ -1,0 +1,17 @@
+/* WriteZone.css */
+.writeZone {
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    padding: 1em;
+  }
+  
+  .writeZone textarea {
+    flex: 1 1 auto;
+    resize: none;
+  }
+  
+  .writeZone button {
+    flex: 0 0 auto;
+  }
+  

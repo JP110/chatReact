@@ -1,0 +1,20 @@
+.message {
+    max-width: 75%;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #ccc;
+    position: relative;
+}
+.message-sent {
+    background-color: #04ab01;
+    align-self: flex-end;
+}
+.message_text {
+    word-wrap: break-word;
+}
+.message_infos {
+    position: absolute;
+    bottom: 1em;
+    left: 100%;
+    margin-left: .1em;
+}
