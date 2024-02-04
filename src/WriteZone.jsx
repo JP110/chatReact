@@ -6,6 +6,7 @@ function WriteZone({sendMessage}) {
   const textareaRef = useRef();
 const handleSendMessage = () => {
  sendMessage(textareaRef.current.value)
+ textareaRef.current.value =""
 }
 
   return (
